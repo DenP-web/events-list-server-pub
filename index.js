@@ -12,9 +12,7 @@ const DB_PASSWORD = process.env.DB_PASSWORD
 const DB_URL = `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@cluster0.xnzfpck.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 app.use(json());
-app.use(cors({
-  origin: 'https://events-list-test.netlify.app'
-}));
+app.use(cors());
 
 app.use('/api', router)
 
