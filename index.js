@@ -3,6 +3,7 @@ import express, { json } from "express";
 import cors from "cors";
 import mongoose from "mongoose";
 import router from "./routers/index.js";
+import addEvents from "./addEvents/index.js";
 
 config();
 const app = express();
@@ -15,6 +16,8 @@ app.use(json());
 app.use(cors());
 
 app.use('/api', router)
+
+addEvents()
 
 async function startServer() {
   try {

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Concert by 'Koralli' Band",
+    "description": "Performance by the famous Ukrainian ethno-rock band.",
+    "eventDate": "2024-06-15",
+    "organizer": "Art Center 'Arsenal'"
+  },
+  {
+    "title": "Contemporary Art Exhibition",
+    "description": "Exhibition of works by young Ukrainian artists.",
+    "eventDate": "2024-07-01",
+    "organizer": "Gallery 'Art of Today'"
+  },
+  {
+    "title": "Business Seminar 'Startups of Ukraine'",
+    "description": "Seminar for young entrepreneurs and startups.",
+    "eventDate": "2024-05-22",
+    "organizer": "Association of Ukrainian Entrepreneurs"
+  },
+  {
+    "title": "Ukrainian Cuisine Festival",
+    "description": "Tasting of national dishes, master classes by chefs.",
+    "eventDate": "2024-08-18",
+    "organizer": "Culinary Union of Ukraine"
+  },
+  {
+    "title": "Lecture 'History of Ukrainian Cinema'",
+    "description": "Lecture by a famous film critic about the development of Ukrainian cinematography.",
+    "eventDate": "2024-06-30",
+    "organizer": "Film Festival 'Molodist'"
+  },
+  {
+    "title": "Ceramics Workshop",
+    "description": "Practical lesson on creating ceramic products.",
+    "eventDate": "2024-07-10",
+    "organizer": "Studio 'Clay World'"
+  },
+  {
+    "title": "Conference 'IT Technologies and Education'",
+    "description": "Discussion of innovations in education through IT.",
+    "eventDate": "2024-09-15",
+    "organizer": "Ministry of Education and Science of Ukraine"
+  },
+  {
+    "title": "Theater Performance 'Kaidash's Family'",
+    "description": "Performance based on the famous Ukrainian work.",
+    "eventDate": "2024-05-25",
+    "organizer": "National Academic Drama Theater"
+  },
+  {
+    "title": "Bike Ride for a Healthy Lifestyle",
+    "description": "Sporting event for all enthusiasts.",
+    "eventDate": "2024-06-05",
+    "organizer": "Sports Club 'Velo-Lviv'"
+  },
+  {
+    "title": "Charity Marathon 'Run Together'",
+    "description": "Marathon aimed at raising funds for orphanages.",
+    "eventDate": "2024-07-20",
+    "organizer": "Charity Fund 'Good Deed'"
+  },
+  {
+    "title": "Book Fair",
+    "description": "Presentations of new books, meetings with authors, autograph sessions.",
+    "eventDate": "2024-10-01",
+    "organizer": "Publishing House 'Book World'"
+  },
+  {
+    "title": "Personal Development Seminar",
+    "description": "Practical advice on self-realization and motivation.",
+    "eventDate": "2024-09-10",
+    "organizer": "Psychological Help Center 'Improvement'"
+  },
+  {
+    "title": "Documentary Film Festival",
+    "description": "Screenings of documentary films from around the world.",
+    "eventDate": "2024-11-05",
+    "organizer": "Ukrainian Cinematographic Association"
+  },
+  {
+    "title": "Poetry Evening",
+    "description": "Readings of poems by contemporary Ukrainian poets.",
+    "eventDate": "2024-06-25",
+    "organizer": "Literary Club 'Slovo'"
+  },
+  {
+    "title": "Music Festival 'Summer Sounds'",
+    "description": "Performances by various musical bands.",
+    "eventDate": "2024-07-15",
+    "organizer": "Music Center 'Sound Space'"
+  },
+  {
+    "title": "Presentation of New Medical Technologies",
+    "description": "Review of innovative medical technologies.",
+    "eventDate": "2024-08-01",
+    "organizer": "Medical Institute of Ukraine"
+  },
+  {
+    "title": "Open Day at the Museum",
+    "description": "Free admission and museum tours.",
+    "eventDate": "2024-05-20",
+    "organizer": "National Museum of the History of Ukraine"
+  },
+  {
+    "title": "Eco-Festival 'Green World'",
+    "description": "Master classes, lectures, and activities on ecology.",
+    "eventDate": "2024-09-22",
+    "organizer": "Environmental Organization 'Save Nature'"
+  },
+  {
+    "title": "Folk Dance Festival",
+    "description": "Performances by dance groups from different regions of Ukraine.",
+    "eventDate": "2024-06-10",
+    "organizer": "Cultural Center 'Ukrainian Heritage'"
+  },
+  {
+    "title": "Chess Tournament",
+    "description": "Competition among chess amateurs and professionals.",
+    "eventDate": "2024-07-05",
+    "organizer": "Chess Federation of Ukraine"
+  }
+]

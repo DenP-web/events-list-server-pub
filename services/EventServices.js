@@ -29,23 +29,6 @@ const getAll = async ({ sortBy, page, limit }) => {
   return { totalCount, events: allEvents };
 };
 
-const add = async (arr) => {
-  for (const item of arr) {
-    const participantList = new ParticipantsListModel();
-    const event = new EventModel({
-      title: item.title,
-      description: item.description,
-      eventDate: item.eventDate,
-      organizer: item.organizer,
-      participants: participantList._id,
-    });
-
-    participantList.eventId = event._id;
-
-    await participantList.save();
-    await event.save();
-  }
-};
 
 const registrationsPerDay = async (eventId) => {
   const registrations = await ParticipantsListModel.aggregate([
@@ -73,7 +56,6 @@ const registrationsPerDay = async (eventId) => {
 };
 
 export default {
-  add,
   getAll,
   registrationsPerDay
 };
