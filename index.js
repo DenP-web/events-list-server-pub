@@ -10,7 +10,7 @@ const app = express();
 const PORT = 5000 || process.env.PORT;
 const DB_USERNAME = process.env.DB_USERNAME
 const DB_PASSWORD = process.env.DB_PASSWORD
-const DB_URL = `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@cluster0.xnzfpck.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+const DB_URL = process.env.DB_URL.replace('username', DB_USERNAME).replace('password', DB_PASSWORD) 
 
 app.use(json());
 app.use(cors());

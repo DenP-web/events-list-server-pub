@@ -1,4 +1,4 @@
-import fs from "fs/promises"; // Use the promises API of fs
+import fs from "fs/promises";
 import EventModel from "../models/EventModel.js";
 import ParticipantsListModel from "../models/ParticipantsListModel.js";
 
@@ -30,11 +30,11 @@ export default async function addEvents() {
           return JSON.parse(data);
         } catch (err) {
           console.error("Error reading or parsing file:", err);
-          throw err; // Propagate the error
+          throw err;
         }
       }
 
-      const events = await readJsonFile("data.json"); // Wait for the file read to complete
+      const events = await readJsonFile("data.json");
       await add(events)
       console.log("Events have been added to the database");
     } else {
